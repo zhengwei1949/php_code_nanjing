@@ -1,0 +1,49 @@
+<?php 
+$data = [
+    ["id" => 1, "name" => "香蕉", "src" => "img/banana1.jpg"],
+    ["id" => 2, "name" => "苹果", "src" => "img/apple1.jpg"],
+    ["id" => 3, "name" => "橙⼦", "src" => "img/orange1.jpg"],
+    ["id" => 4, "name" => "菠萝", "src" => "img/pineapple1.jpg"]
+];
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        传智网上水果超市
+    </div>
+    <div class="container">
+        <p>
+            <a href="javascript:;">水果</a>
+        </p>
+        <ul>
+            <li>
+                <img src="./img/apple1.jpg" alt="">
+                <a href="#">苹果</a>
+            </li>
+            <li>
+                <img src="./img/apple1.jpg" alt="">
+                <a href="#">苹果</a>
+            </li>
+            <li>
+                <img src="./img/apple1.jpg" alt="">
+                <a href="#">苹果</a>
+            </li>
+            <li>
+                <img src="./img/apple1.jpg" alt="">
+                <a href="#">苹果</a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer">
+        传智播客 版权所有
+    </div>
+</body>
+</html>
